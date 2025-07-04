@@ -1,23 +1,32 @@
-import React from 'react'
+import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import HeaderButton from '../ui/HeaderButton';
+import HeaderButton from "../ui/HeaderButton";
 
 const Hero = () => {
   return (
     <div className="min-h-screen">
-             <div className="mt-20 flex justify-center">
-          <div className="text-center text-[8px] font-bold rounded-[20px] px-4 py-1 w-fit bgRainbow relative bg-background group flex items-center gap-2 cursor-pointer md:text-[12px]">
-            <p> Available for Freelancing Projects</p>
-            <span className="group-hover:translate-x-1 transition-all duration-300">
-              <MdKeyboardArrowRight/>
-            </span>
-          </div>
-        </div> 
+      <div className="mt-20 flex justify-center">
+        <div className="text-center text-[8px] font-bold rounded-[20px] px-4 py-1 w-fit bgRainbow relative bg-background group flex items-center gap-2 cursor-pointer md:text-[12px]">
+          <p> Available for Freelancing Projects</p>
+          <span className="group-hover:translate-x-1 transition-all duration-300">
+            <MdKeyboardArrowRight />
+          </span>
+        </div>
+      </div>
       <div className=" mx-[10px] mt-20 flex justify-center items-center gap-5 flex-col lg:flex-row  md:mx-[100px] md:mt-32 ">
         <div className=" w-[50vw] flex flex-col items-center">
-          <p className="text-4xl font-bold whitespace-nowrap md:text-7xl xsm:text-5xl">Hi I'm Devang</p>
+          <p className="text-4xl font-bold whitespace-nowrap md:text-7xl xsm:text-5xl">
+            Hi I'm Devang
+          </p>
           <div className=" w-[120%] text-[10px] text-justify mt-16 md:text-sm xsm:text-[12px] lg:w-[65%]">
-            <p>A Full Stack Developer and B.Tech graduate with 1 year of experience as a Frontend Developer. I have hands-on experience with modern web technologies including React, Next.js, Tailwind CSS, Node.js, Express, and MongoDB. I enjoy building scalable, user-friendly applications and continuously improving my skills across the full development stack. </p>
+            <p>
+              A Full Stack Developer and B.Tech graduate with 1 year of
+              experience as a Frontend Developer. I have hands-on experience
+              with modern web technologies including React, Next.js, Tailwind
+              CSS, Node.js, Express, and MongoDB. I enjoy building scalable,
+              user-friendly applications and continuously improving my skills
+              across the full development stack.{" "}
+            </p>
           </div>
         </div>
         <div>
@@ -38,23 +47,19 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center mt-20 gap-5 items-center">
-        <HeaderButton className="relative bg-background px-4 py-3 rounded-[15px] border border-borderGrey1 z-1 bgGlare overflow-hidden " 
+        <HeaderButton
+          className="relative bg-background px-4 py-3 rounded-[15px] border border-borderGrey1 z-1 bgGlare overflow-hidden "
           url="https://drive.google.com/file/d/1J3tdoxTRtVSdDzMOr_DvAXx6FpmfD5hi/view?usp=sharing"
         >
-        <p className='text-[10px] sm:text-[12px] md:text-sm'>
-                  Download CV
-                  </p>
-          
+          <p className="text-[10px] sm:text-[12px] md:text-sm">Download CV</p>
         </HeaderButton>
-           
-           <HeaderButton className="relative bg-background px-4 py-1 h-[40px] rounded-[15px] bgRainbow z-1 " >
-                <p className='text-[10px] sm:text-[12px] md:text-sm'>
-                  Hire Me
-                  </p>
-           </HeaderButton>
+
+        <HeaderButton className="relative bg-background px-4 py-1 h-[40px] rounded-[15px] bgRainbow z-1 ">
+          <p className="text-[10px] sm:text-[12px] md:text-sm">Hire Me</p>
+        </HeaderButton>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
