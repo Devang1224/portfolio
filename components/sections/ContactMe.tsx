@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const ContactMe = () => {
   return (
-    <div className="mt-20 md:mt-40 pb-32">
+    <div className="mt-20 md:mt-40 pb-32" id="contact">
       <div className="flex flex-col items-center justify-center gap-8 px-4">
         <p className="sectionHeading mb-2">Contact Me</p>
         <p className="text-center text-gray-300 max-w-xl text-sm md:text-base">

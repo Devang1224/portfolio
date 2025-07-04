@@ -1,17 +1,12 @@
 import React from "react";
-import { MdKeyboardArrowRight } from "react-icons/md";
 import HeaderButton from "../ui/HeaderButton";
+import AvailabilityBanner from "../ui/AvailabilityBanner";
 
 const Hero = () => {
   return (
     <div className="min-h-screen relative">
       <div className="mt-20 flex justify-center">
-        <div className="text-center text-[8px] font-bold rounded-[20px] px-4 py-1 w-fit bgRainbow relative bg-background group flex items-center gap-2 cursor-pointer md:text-[12px]">
-          <p> Available for Freelancing Projects</p>
-          <span className="group-hover:translate-x-1 transition-all duration-300">
-            <MdKeyboardArrowRight />
-          </span>
-        </div>
+        <AvailabilityBanner/>
       </div>
       <div className=" mx-[10px] mt-20 flex justify-center items-center gap-5 flex-col lg:flex-row  md:mx-[100px] md:mt-32 ">
         <div className=" w-[50vw] flex flex-col items-center">
@@ -54,7 +49,7 @@ const Hero = () => {
           <p className="text-[10px] sm:text-[12px] md:text-sm">Download CV</p>
         </HeaderButton>
 
-        <HeaderButton className="relative bg-background px-4 py-1 h-[40px] rounded-[15px] bgRainbow z-1 ">
+        <HeaderButton className="relative bg-background px-4 py-1 h-[40px] rounded-[15px] bgRainbow z-1 " type="scrollToSection">
           <p className="text-[10px] sm:text-[12px] md:text-sm">Hire Me</p>
         </HeaderButton>
       </div>
