@@ -33,6 +33,39 @@ body {
   
 }
 
+.sunlight-rays{
+  
+  transform: rotateZ(-45deg);
+  transform-origin: top left;
+  background-image:linear-gradient(to bottom,
+  rgba(255, 255, 255, 0.847) 0%,
+  rgba(255, 255, 255, 0.665) 10%,
+  rgba(255, 255, 255, 0.376) 40%);
+  opacity: 0.6;
+  
+  mix-blend-mode: screen;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50%;
+
+}
+
+/* .sunlight-rays {
+  
+  width: 60vw;
+  height: 60vw;
+  min-width: 200px;
+  min-height: 200px;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 40%,
+    transparent 80%
+  );
+  opacity: 0.4;
+  filter: blur(20px);
+  mix-blend-mode: scrkeen;
+} */
+
 
 .bgRainbow::after{
   content: "";

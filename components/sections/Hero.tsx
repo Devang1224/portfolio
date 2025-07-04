@@ -4,7 +4,7 @@ import HeaderButton from "../ui/HeaderButton";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
       <div className="mt-20 flex justify-center">
         <div className="text-center text-[8px] font-bold rounded-[20px] px-4 py-1 w-fit bgRainbow relative bg-background group flex items-center gap-2 cursor-pointer md:text-[12px]">
           <p> Available for Freelancing Projects</p>
