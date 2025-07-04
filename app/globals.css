@@ -33,6 +33,21 @@ body {
   
 }
 
+.hero-image {
+  width: 71%; 
+    height: 100%; 
+    object-fit: contain;
+    background-position: center;
+  mask-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path fill='white' d='M55.8,-18.4C64,7.1,56.6,37.3,36.9,51.9C17.3,66.4,-14.6,65.1,-37.9,48.9C-61.3,32.7,-76.2,1.6,-68.5,-23.2C-60.7,-48,-30.4,-66.5,-3.3,-65.4C23.8,-64.4,47.7,-43.8,55.8,-18.4Z' transform='translate(100 100)'/></svg>");
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path fill='white' d='M55.8,-18.4C64,7.1,56.6,37.3,36.9,51.9C17.3,66.4,-14.6,65.1,-37.9,48.9C-61.3,32.7,-76.2,1.6,-68.5,-23.2C-60.7,-48,-30.4,-66.5,-3.3,-65.4C23.8,-64.4,47.7,-43.8,55.8,-18.4Z' transform='translate(100 100)'/></svg>");
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
 .sunlight-rays{
   
   transform: rotateZ(-45deg);

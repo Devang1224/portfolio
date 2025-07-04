@@ -25,8 +25,8 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <div className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px]">
-            <svg
+          <div className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] flex justify-center items-center ">
+            {/* <svg
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
               className="w-full h-full"
@@ -36,7 +36,8 @@ const Hero = () => {
                 d="M55.8,-18.4C64,7.1,56.6,37.3,36.9,51.9C17.3,66.4,-14.6,65.1,-37.9,48.9C-61.3,32.7,-76.2,1.6,-68.5,-23.2C-60.7,-48,-30.4,-66.5,-3.3,-65.4C23.8,-64.4,47.7,-43.8,55.8,-18.4Z"
                 transform="translate(100 100)"
               />
-            </svg>
+            </svg> */}
+            <img src="/assets/images/userImage2.png" alt="Your Blob Image" className="hero-image "></img>
           </div>
         </div>
       </div>
