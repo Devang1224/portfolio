@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdKeyboardArrowRight } from "react-icons/md";
+import HeaderButton from '../ui/HeaderButton';
 
 const Hero = () => {
   return (
@@ -37,12 +38,20 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center mt-20 gap-5 items-center">
-            <button className="relative bg-background px-4 py-2  rounded-[15px] border border-borderGrey1 z-1 bgGlare overflow-hidden ">
-                Download CV
-           </button>
-           <button className="relative bg-background px-4 py-1 h-[40px] rounded-[15px] bgRainbow z-1 " >
-                Hire Me
-           </button>
+        <HeaderButton className="relative bg-background px-4 py-3 rounded-[15px] border border-borderGrey1 z-1 bgGlare overflow-hidden " 
+          url="https://drive.google.com/file/d/1J3tdoxTRtVSdDzMOr_DvAXx6FpmfD5hi/view?usp=sharing"
+        >
+        <p className='text-[10px] sm:text-[12px] md:text-sm'>
+                  Download CV
+                  </p>
+          
+        </HeaderButton>
+           
+           <HeaderButton className="relative bg-background px-4 py-1 h-[40px] rounded-[15px] bgRainbow z-1 " >
+                <p className='text-[10px] sm:text-[12px] md:text-sm'>
+                  Hire Me
+                  </p>
+           </HeaderButton>
       </div>
     </div>
   )

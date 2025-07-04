@@ -66,7 +66,7 @@ export const projects = [
     {
         name:'FashFlix',
         image:'/assets/images/fashflix/fashflix.png',
-        description:'A full-stack eCommerce web application with product filtering by size, color, and cost for a personalized shopping experience. Features secure user authentication with JWT, persistent sessions using Redux Persist, and Stripe-integrated payments',
+        description:'A full-stack eCommerce web application designed to deliver a seamless and personalized shopping experience',
         projectUrl:'https://fashflix.netlify.app/',
         githubUrl:'https://github.com/Devang1224/mercwebsitestatic',
         techStack:[{
@@ -98,7 +98,7 @@ export const projects = [
     {
         name:'PathWay',
         image:'/assets/images/pathway/pathway.png',
-        description:'A simple landing page using framer motion',
+        description:'A clean and visually appealing landing page built with Framer Motion to deliver smooth animations and interactive transitions.',
         projectUrl:'https://pathway-pink.vercel.app',
         githubUrl:'https://github.com/Devang1224/pathway-framerMotion',
         techStack:[{

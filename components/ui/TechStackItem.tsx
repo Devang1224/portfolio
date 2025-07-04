@@ -36,7 +36,7 @@ const TechStackItem = ({ name,label }: TechStackItemProps) => {
   };
 
   return (
-    <div className="flex item-center gap-2 px-3 py-1 rounded-lg bg-background1 w-fit">
+    <div className="flex item-center gap-2 px-2 py-1 rounded-lg bg-background1 w-fit">
       {/* {name === "webrtc" ? (
           <img src={techStack[name as keyof typeof techStack]} alt="webrtc" className="w-[20px] h-[20px] object-cover" />
         ) : (
@@ -44,7 +44,7 @@ const TechStackItem = ({ name,label }: TechStackItemProps) => {
         )} */}
         {
           typeof techStack[name as keyof typeof techStack] === 'string' ? (
-            <img src={techStack[name as keyof typeof techStack]} alt="webrtc" className="w-[20px] h-[20px] object-contain" />
+            <img src={techStack[name as keyof typeof techStack]} alt={name} className="w-[20px] h-[20px] object-contain" />
           ) : (
             techStack[name as keyof typeof techStack]
           )

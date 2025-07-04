@@ -1,6 +1,8 @@
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Experience from "@/components/sections/Experience";
+import TechStack from "@/components/sections/TechStack";
+import ContactMe from "@/components/sections/ContactMe";
 
 
 export default function Home() {
@@ -10,7 +12,8 @@ export default function Home() {
       <Hero/>
       <Projects/>
       <Experience/>
-      {/* <TechStack/> */}
+      <TechStack/>
+      <ContactMe/>
       </div>
     </div>
   );
