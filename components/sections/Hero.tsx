@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderButton from "../ui/HeaderButton";
 import AvailabilityBanner from "../ui/AvailabilityBanner";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -37,7 +38,15 @@ const Hero = () => {
                 transform="translate(100 100)"
               />
             </svg> */}
-            <img src="/assets/images/userImage2.png" alt="Your Blob Image" className="hero-image "></img>
+
+            <Image
+              src="/assets/images/userImage2.png"
+              alt="user_image"
+              className="hero-image"
+              width={400}
+              height={400}
+              priority
+            />
           </div>
         </div>
       </div>
