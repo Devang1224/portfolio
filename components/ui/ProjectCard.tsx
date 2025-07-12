@@ -21,7 +21,9 @@ interface item {
 const ProjectCard = ({ item }: item) => {
   return (
     <div className="rounded-[20px] bg-background border border-borderGrey1 w-[340px] overflow-hidden 
-      cursor-pointer group/card hover:[box-shadow:0_0_40px_10px_rgba(255,255,255,0.086)] transition-all duration-300" onClick={()=>window.open(item?.projectUrl,'_blank')}>
+      cursor-pointer group/card hover:[box-shadow:0_0_40px_10px_rgba(255,255,255,0.086)] transition-all duration-300" 
+      onClick={()=>window.open(item?.projectUrl,'_blank')}
+    >
       <div className="w-[100%] h-[200px] relative " >
         <Image
           src={item?.image}
@@ -55,19 +57,7 @@ const ProjectCard = ({ item }: item) => {
         </div>
         <div className="text-textGrey1 text-sm mt-4">{item?.description}</div>
         <div className="flex gap-2 flex-wrap mt-3 ">
-          {/* <TechStackItem name="reactjs" label="React"/>
-          <TechStackItem name="nodejs" label="Nodejs"/>
-          <TechStackItem name="express" label="Express"/>
-          <TechStackItem name="mongodb" label="MongoDB"/>
-          <TechStackItem name="tailwindcss" label="TailwindCSS"/>
-          <TechStackItem name="socketio" label="Socket.io"/>
-          <TechStackItem name="webrtc" label="WebRTC"/>
-          <TechStackItem name="typescript" label="Typescript"/>
-          <TechStackItem name="firebase" label="Firebase"/>
-          <TechStackItem name="redux" label="Redux"/>
-          <TechStackItem name="framermotion" label="Framer Motion"/>
-          <TechStackItem name="fabricjs" label="Fabric.js"/>
-          <TechStackItem name="nextjs" label="Nextjs"/> */}
+          
           {item?.techStack?.map((item, index) => (
             <TechStackItem key={index} name={item?.name} label={item?.label} />
           ))}
