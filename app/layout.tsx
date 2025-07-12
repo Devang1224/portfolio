@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import {Roboto_Mono} from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         className={`${robotoMono.className} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import HeaderButton from "../ui/HeaderButton";
 import AvailabilityBanner from "../ui/AvailabilityBanner";
 import Image from "next/image";
+import BlurText from "../ui/BlurText";
 
 const Hero = () => {
   return (
@@ -12,7 +13,8 @@ const Hero = () => {
       <div className=" mx-[10px] mt-20 flex justify-center items-center gap-5 flex-col lg:flex-row  md:mx-[100px] md:mt-32 ">
         <div className=" w-[50vw] flex flex-col items-center">
           <p className="text-4xl font-bold whitespace-nowrap md:text-7xl xsm:text-5xl">
-            Hi I'm Devang
+            {/* Hi I'm Devang */}
+            <BlurText text="Hi I'm Devang" />
           </p>
           <div className=" w-[120%] text-[10px] text-justify mt-16 md:text-sm xsm:text-[12px] lg:w-[65%]">
             <p>

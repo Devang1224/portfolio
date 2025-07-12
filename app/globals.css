@@ -56,7 +56,7 @@ body {
   rgba(255, 255, 255, 0.847) 0%,
   rgba(255, 255, 255, 0.665) 10%,
   rgba(255, 255, 255, 0.376) 40%);
-  opacity: 0.6;
+  /* opacity: 0.6; */
   
   mix-blend-mode: screen;
   border-bottom-left-radius:50%;
