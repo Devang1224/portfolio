@@ -21,7 +21,7 @@ const letters = text.split('');
             <motion.span key={index} className='inline-block'
              initial={{opacity:0,filter:'blur(10px)'}}
              animate={{opacity:1,filter:'blur(0px)'}}
-             transition={{delay:index*delay,duration:duration,ease:'easeOut'}}
+             transition={{ delay:index*delay,duration:duration,ease:'easeOut' }}
             >
                 {letter === " " ? "\u00A0" : letter}
             </motion.span>

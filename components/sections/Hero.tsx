@@ -2,7 +2,6 @@ import React from "react";
 import HeaderButton from "../ui/HeaderButton";
 import AvailabilityBanner from "../ui/AvailabilityBanner";
 import Image from "next/image";
-import BlurText from "../ui/BlurText";
 
 const Hero = () => {
   return (
@@ -16,14 +15,13 @@ const Hero = () => {
             Hi I&apos;m Devang
             {/* <BlurText text="Hi I'm Devang" /> */}
           </p>
-          <div className=" w-[120%] text-[10px] text-justify mt-16 md:text-sm xsm:text-[12px] lg:w-[65%]">
+          <div className=" w-[120%] text-[10px] mt-16 md:text-sm xsm:text-[12px] lg:w-[65%]">
             <p>
-              A Full Stack Developer and B.Tech graduate with 1 year of
-              experience as a Frontend Developer. I have hands-on experience
-              with modern web technologies including React, Next.js, Tailwind
-              CSS, Node.js, Express, and MongoDB. I enjoy building scalable,
-              user-friendly applications and continuously improving my skills
-              across the full development stack.{" "}
+              A Full Stack Developer passionate about crafting seamless web 
+              experiences. I have hands-on experience with modern web technologies 
+              including ReactJS, NextJS, Typescript, Tailwind CSS, Framer Motion, Node.js and more. 
+              I enjoy building scalable, user-friendly applications and continuously 
+              improving my skills in this ever-evolving field.{" "}
             </p>
           </div>
         </div>
