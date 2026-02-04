@@ -9,7 +9,9 @@ import { SiTypescript } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandRedux } from "react-icons/tb";
-
+import { SiLangchain } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { DiRedis } from "react-icons/di";
 
 interface TechStackItemProps {
   name: string;
@@ -33,6 +35,9 @@ const TechStackItem = ({ name,label }: TechStackItemProps) => {
     framermotion:"/assets/images/framermotion.png",
     fabricjs:"/assets/images/fabricjs.png",
     liveblocks:"/assets/images/liveblocks.png",
+    langchain: <SiLangchain size={20} className="text-blue-500" />,
+    postgres: <BiLogoPostgresql size={20} className="text-blue-500" />,
+    redis: <DiRedis size={20} className="text-red-500" />,  
   };
 
   return (

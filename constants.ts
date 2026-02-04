@@ -1,5 +1,42 @@
 export const projects = [
     {
+        name:'SkimBolt',
+        image:'/assets/images/skimbolt/skimbolt.webp',
+        description:'AI-powered Chrome extension that instantly summarizes blog posts and articles into clear, bite-sized summaries right in your browser.',
+        projectUrl:'https://skim-bolt-nsaw.vercel.app/',
+        githubUrl:'https://github.com/Devang1224/skimBolt',
+        techStack:[{
+            name:'nextjs',
+            label:'Nextjs'
+        },
+        {
+            name:'typescript',
+            label:'Typescript'
+        },
+        {
+            name:'tailwindcss',
+            label:'TailwindCSS'
+        },
+        {
+            name:'langchain',
+            label:"LangChain"
+        },
+        {
+            name:"postgres",
+            label:"Postgres"
+        },
+        {
+            name:'nodejs',
+            label:'Nodejs'
+        },
+        {
+            name:'redis',
+            label:'Redis'
+        }
+    ],
+        moreImages:[]
+    },
+    {
         name:'Inkflow',
         image:'/assets/images/inkflow/inkflow.png',
         description:'A real-time collaborative drawing application with customizable shapes, freehand sketching, image import and deletion, and full-canvas PDF export. Designed for seamless teamwork and visual communication.',
