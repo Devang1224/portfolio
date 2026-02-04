@@ -3,7 +3,7 @@ export const projects = [
         name:'SkimBolt',
         image:'/assets/images/skimbolt/skimbolt.webp',
         description:'AI-powered Chrome extension that instantly summarizes blog posts and articles into clear, bite-sized summaries right in your browser.',
-        projectUrl:'https://skim-bolt-nsaw.vercel.app/',
+        projectUrl:'https://skim-bolt.vercel.app/',
         githubUrl:'https://github.com/Devang1224/skimBolt',
         techStack:[{
             name:'nextjs',
